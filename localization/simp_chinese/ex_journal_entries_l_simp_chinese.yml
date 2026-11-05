@@ -1,8 +1,0 @@
-﻿l_simp_chinese:
- je_russian_socialism:0 "俄国社会主义运动"
- je_russian_socialism_reason:0 "社会主义思想在俄国工人阶级中迅速传播。工会的影响力日益增强，抗议和罢工在全国蔓延。面对日益激进的政治环境，沙皇政府必须在镇压与妥协之间做出选择。"
- russian_socialism_modifier:0 "社会主义运动激进化"
- activate_russian_socialism_button:0 "煽动运动"
- activate_russian_socialism_button_desc:0 "发起社会主义政治运动，煽动工人阶级争取自身权益。"
- cancel_russian_socialism_button:0 "镇压运动"
- cancel_russian_socialism_button_desc:0 "镇压社会主义运动，消除其政治影响并恢复社会秩序。"

@@ -1,8 +1,0 @@
-﻿on_building_built = {
-    trigger_event = {
-        limit = {
-            is_building_type = building_Bank_of_Manhattan
-        }
-        id = bretton_woods.1
-    }
-}
