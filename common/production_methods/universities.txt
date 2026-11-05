@@ -1,0 +1,360 @@
+﻿pm_default_building_university_beijing = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_tsinghua = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_oxford = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_cambridge = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_humboldt = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_heidelberg = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_sorbonne = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_ecole_polytechnique = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_moscow = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_st_petersburg = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_harvard = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_yale = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_bologna = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_rome = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_tokyo = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_kyoto = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_salamanca = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_eotvos = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_istanbul = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}
+pm_default_building_university_al_azhar = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+    country_modifiers = {
+        workforce_scaled = {
+            country_tech_spread_mult = 0.05
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            state_pop_qualifications_mult = 0.05
+        }
+    }
+    building_modifiers = {
+        level_scaled = {
+            building_employment_academics_add = 500
+        }
+    }
+}

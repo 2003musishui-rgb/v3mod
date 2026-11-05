@@ -1,0 +1,4 @@
+﻿bretton_woods_system = {
+    icon = "gfx/interface/icons/invention_icons/international_diplomacy.dds"
+    country_max_companies_add = 1
+}

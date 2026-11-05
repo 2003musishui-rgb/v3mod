@@ -1,0 +1,249 @@
+﻿pmg_base_building_potala = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_potala
+    }
+}
+
+pmg_base_building_terracotta_army = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_terracotta_army
+    }
+}
+
+pmg_base_building_mogao_caves = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_mogao_caves
+    }
+}
+
+pmg_base_building_crystal_palace = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_crystal_palace
+    }
+}
+
+pmg_base_building_reichstag = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_reichstag
+    }
+}
+
+pmg_base_building_st_pauls_church = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_st_pauls_church
+    }
+}
+
+pmg_base_building_buckingham_palace = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_buckingham_palace
+    }
+}
+
+pmg_base_building_Ise = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_Ise
+    }
+}
+
+pmg_base_building_parliament = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_parliament
+    }
+}
+
+pmg_base_building_swan = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_swan
+    }
+}
+
+pmg_base_building_winter = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_winter
+    }
+}
+
+pmg_base_building_Broadway = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_Broadway
+    }
+}
+
+pmg_base_building_Notre_Dame = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_Notre_Dame
+    }
+}
+
+pmg_base_building_Hollywood = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_Hollywood
+    }
+}
+
+pmg_base_building_Versailles = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_Versailles
+    }
+}
+
+pmg_base_building_Uffizi = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_Uffizi
+    }
+}
+
+pmg_base_building_Venice = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_Venice
+    }
+}
+
+pmg_base_building_soviet = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_soviet
+    }
+}
+
+pmg_base_building_Aswan = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_Aswan
+    }
+}
+
+pmg_base_building_Jerusalem = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_Jerusalem
+    }
+}
+
+pmg_base_building_Mecca = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_Mecca
+    }
+}
+
+pmg_base_building_Madrid = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_Madrid
+    }
+}
+
+pmg_base_building_stonehenge = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_stonehenge
+    }
+}
+
+pmg_base_building_Bank_of_Manhattan = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_Bank_of_Manhattan
+    }
+}
+
+pmg_base_building_PalaisdelaPorteDorée = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+
+    production_methods = {
+        pm_default_building_PalaisdelaPorteDorée
+    }
+}

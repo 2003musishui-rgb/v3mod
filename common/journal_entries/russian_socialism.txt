@@ -1,0 +1,18 @@
+﻿je_russian_socialism = {#俄国社会主义运动
+	icon = "gfx/interface/icons/invention_icons/socialism.dds"
+	group = je_group_internal_affairs
+
+	is_shown_when_inactive = {
+		always = yes
+	}
+
+	possible = {
+		c:RUS ?= THIS
+		has_technology_researched = socialism
+	}
+
+	scripted_button = activate_russian_socialism_button
+	scripted_button = cancel_russian_socialism_button
+
+	should_be_pinned_by_default_uninvolved_or_context = yes
+}

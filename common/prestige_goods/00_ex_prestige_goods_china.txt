@@ -1,0 +1,90 @@
+﻿# 解放汽车
+prestige_good_jiefang = {
+	base_good = automobiles
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/china/minsheng_vehicle.dds"
+}
+
+# 鞍山钢铁
+prestige_good_angang_steel = {
+	base_good = steel
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_steel_prestige.dds"
+}
+
+# 亚马逊橡胶（以橡胶为蓝本的声望商品）
+prestige_good_amazon_rubber = {
+	base_good = rubber
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/china/amazon_rubber.png"
+}
+
+# 老干妈（以食品杂货为蓝本的声望商品）
+prestige_good_laoganma = {
+	base_good = groceries
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/china/laoganma.png"
+}
+
+# 爱国者汽车（以汽车为蓝本的声望商品）
+prestige_good_patriot_auto = {
+	base_good = automobiles
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/china/patriot_auto.png"
+}
+
+# 安格斯牛肉（以肉为蓝本的声望商品）
+prestige_good_angus_beef = {
+	base_good = meat
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_meat_prestige.dds"
+}
+
+# 加拿大皇家原木（以木材为蓝本的声望商品）
+prestige_good_royal_canadian_log = {
+	base_good = wood
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_wood_prestige.dds"
+}
+
+# 枫糖浆（以糖为蓝本的声望商品）
+prestige_good_maple_syrup = {
+	base_good = sugar
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/china/maple_syrup.png"
+}
+
+# 乌拉尔钾肥
+prestige_good_uralkali_fertilizer = {
+	base_good = fertilizer
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_fertilizer_prestige.dds"
+}
+
+# 法国军用炸药
+prestige_good_french_explosives = {
+	base_good = explosives
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_explosives_prestige.dds"
+}
+
+# 标致汽车
+prestige_good_peugeot_auto = {
+	base_good = automobiles
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/china/peugeot_auto.png"
+}
+
+# 古塔胶
+prestige_good_gutta_percha = {
+	base_good = rubber
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/china/amazon_rubber.png"
+}
+
+# 名贵铁
+prestige_good_rio_tinto_iron = {
+	base_good = iron
+	prestige_bonus = 0.1
+	texture = "gfx/interface/icons/goods_icons/prestige_goods/generic_iron_prestige.dds"
+}

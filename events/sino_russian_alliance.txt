@@ -1,0 +1,139 @@
+	namespace = sino_russian_alliance
+
+	sino_russian_alliance.1 = {#中俄同盟(中)
+		type = country_event
+		placement = root
+		title = sino_russian_alliance.1.t
+		desc = sino_russian_alliance.1.d
+		flavor = sino_russian_alliance.1.f
+
+		#事件持续事件（月）
+		duration = 3
+		
+		trigger = {
+		}
+
+		immediate = {
+			#给两个利益集团创建变量
+			ig:ig_trade_unions = {
+				save_scope_as = allies_number_1
+			}
+			ig:ig_intelligentsia = {
+				save_scope_as = allies_number_2
+			}
+		}
+
+		option = {
+			name = sino_russian_alliance.1.b
+			default_option = yes
+
+			#在俄罗斯触发事件
+			c:RUS = {
+				trigger_event = { 
+					id = sino_russian_alliance.2
+				}
+			}
+
+			#创建游说团(工会，军队)
+			create_political_lobby = {  
+				type = lobby_pro_country  
+				target = c:RUS
+				add_interest_group = ig:ig_trade_unions
+				add_interest_group = ig:ig_intelligentsia
+			}
+
+			#将利益集团加入到游说团？
+			random_political_lobby = {
+				limit = {
+					is_political_lobby_type = lobby_pro_country
+					target = c:RUS
+				}
+				add_lobby_member = scope:allies_number_1
+				add_lobby_member = scope:allies_number_2
+			}
+		}
+	}
+
+	sino_russian_alliance.2 = {#中俄同盟(俄)
+		type = country_event
+		placement = root
+		title = sino_russian_alliance.2.t
+		desc = sino_russian_alliance.2.d
+		flavor = sino_russian_alliance.2.f
+
+		duration = 3
+
+		trigger = {
+		}
+
+		immediate = {
+			ig:ig_trade_unions = {
+				save_scope_as = allies_number_1
+			}
+			ig:ig_intelligentsia = {
+				save_scope_as = allies_number_2
+			}
+		}
+
+		option = {
+			name = sino_russian_alliance.2.b
+			default_option = yes
+
+			custom_tooltip = {
+				text = sino_russian_alliance_agree_tt
+				set_variable = both_agree_sino_russian_alliance
+			}
+			#改善关系
+			change_relations = {
+				country = c:CHI
+				value = 50
+			}
+			#签军盟
+			custom_tooltip = {
+				text = sign_alliance_treaty_tt
+			}
+			#创建条约
+			create_treaty = {
+				name = treaty_name_sino_russian_alliance
+				first_country = c:CHI
+				second_country = c:RUS
+
+				is_draft = no
+				binding_period = { 
+					years = 25 
+				}
+
+				articles_to_create = {
+					{ # 中俄同盟
+						article = alliance
+					}
+					{
+						article = trade_privilege
+						source_country = c:CHI
+						target_country = c:RUS
+					}
+					{ 
+						article = trade_privilege
+						source_country = c:RUS
+						target_country = c:CHI
+					}
+				}
+			}
+
+			#创建游说团
+			create_political_lobby = {  
+				type = lobby_pro_country  
+				target = c:CHI
+				add_interest_group = ig:ig_trade_unions
+				add_interest_group = ig:ig_intelligentsia
+			}
+			random_political_lobby = {
+				limit = {
+					is_political_lobby_type = lobby_pro_country
+					target = c:CHI
+				}
+				add_lobby_member = scope:allies_number_1
+				add_lobby_member = scope:allies_number_2
+			}
+		}
+	}

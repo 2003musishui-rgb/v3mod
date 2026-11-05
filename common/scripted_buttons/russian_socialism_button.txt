@@ -1,0 +1,59 @@
+﻿# 激活俄国社会主义运动
+activate_russian_socialism_button = {
+	name = activate_russian_socialism_button
+	desc = activate_russian_socialism_button_desc
+
+	visible = {
+		NOT = { has_variable = russian_socialism_active }
+	}
+
+	possible = {
+		NOT = { has_variable = russian_socialism_active }
+	}
+
+	effect = {
+		set_variable = russian_socialism_active
+		if = {
+			limit = {
+				NOT = {
+					any_political_movement = {
+						is_political_movement_type = movement_socialist
+					}
+				}
+			}
+			create_political_movement = {
+				movement_type = movement_socialist
+			}
+		}
+		any_political_movement = {
+			limit = {
+				is_political_movement_type = movement_socialist
+			}
+			add_modifier = russian_socialism_modifier
+		}
+	}
+}
+
+# 取消俄国社会主义运动
+cancel_russian_socialism_button = {
+	name = cancel_russian_socialism_button
+	desc = cancel_russian_socialism_button_desc
+
+	visible = {
+		has_variable = russian_socialism_active
+	}
+
+	possible = {
+		has_variable = russian_socialism_active
+	}
+
+	effect = {
+		remove_variable = russian_socialism_active
+		any_political_movement = {
+			limit = {
+				is_political_movement_type = movement_socialist
+			}
+			remove_modifier = russian_socialism_modifier
+		}
+	}
+}

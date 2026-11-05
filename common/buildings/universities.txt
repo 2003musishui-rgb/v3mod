@@ -1,0 +1,340 @@
+﻿building_university_beijing = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_beijing }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_BEIJING
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_tsinghua = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_tsinghua }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_BEIJING
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_oxford = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_oxford }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_HOME_COUNTIES
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_cambridge = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_cambridge }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_HOME_COUNTIES
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_humboldt = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_humboldt }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_BRANDENBURG
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_heidelberg = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_heidelberg }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_BADEN
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_sorbonne = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_sorbonne }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_ILE_DE_FRANCE
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_ecole_polytechnique = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_ecole_polytechnique }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_ILE_DE_FRANCE
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_moscow = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_moscow }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_MOSCOW
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_st_petersburg = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_st_petersburg }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_INGRIA
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_harvard = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_harvard }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_MASSACHUSETTS
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_yale = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_yale }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_CONNECTICUT
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_bologna = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_bologna }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_EMILIA
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_rome = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_rome }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_LAZIO
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_tokyo = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_tokyo }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_KANSAI
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_kyoto = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_kyoto }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_CHUBU
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_salamanca = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_salamanca }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_LEON
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_eotvos = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_eotvos }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_CENTRAL_HUNGARY
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_istanbul = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_istanbul }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_EASTERN_THRACE
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}
+building_university_al_azhar = {
+    building_group = bg_monuments
+    icon = "gfx/interface/icons/building_icons/uni.dds"
+    expandable = no
+    downsizeable = no
+    max_level = 1
+    unique = yes
+    entity_not_constructed = { }
+    entity_constructed = { "wonder_eiffel_tower_01_entity" }
+    production_method_groups = { pmg_base_building_university_al_azhar }
+    required_construction = 2000
+    potential = {
+        state_region = s:STATE_LOWER_EGYPT
+    }
+    ai_value = 10
+    background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}

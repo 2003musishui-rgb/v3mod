@@ -1,0 +1,6 @@
+﻿russian_socialism_modifier = {#社会主义运动激进化
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	political_movement_pop_attraction_mult = 2.0
+	political_movement_activism_growth_mult = 0.50
+	political_movement_radicalism_add = -1.0
+}

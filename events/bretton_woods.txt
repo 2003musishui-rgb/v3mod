@@ -1,0 +1,27 @@
+﻿namespace = bretton_woods
+
+bretton_woods.1 = {#布雷顿森林体系(美)
+    type = country_event
+    placement = root
+    title = bretton_woods.1.t
+    desc = bretton_woods.1.d
+    flavor = bretton_woods.1.f
+
+    duration = 3
+
+    trigger = {
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = bretton_woods.1.a
+        default_option = yes
+
+        add_modifier = {
+            name = bretton_woods_system
+            is_decaying = no
+        }
+    }
+}

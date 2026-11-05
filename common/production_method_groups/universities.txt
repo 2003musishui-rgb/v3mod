@@ -1,0 +1,160 @@
+﻿pmg_base_building_university_beijing = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_beijing
+    }
+}
+pmg_base_building_university_tsinghua = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_tsinghua
+    }
+}
+pmg_base_building_university_oxford = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_oxford
+    }
+}
+pmg_base_building_university_cambridge = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_cambridge
+    }
+}
+pmg_base_building_university_humboldt = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_humboldt
+    }
+}
+pmg_base_building_university_heidelberg = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_heidelberg
+    }
+}
+pmg_base_building_university_sorbonne = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_sorbonne
+    }
+}
+pmg_base_building_university_ecole_polytechnique = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_ecole_polytechnique
+    }
+}
+pmg_base_building_university_moscow = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_moscow
+    }
+}
+pmg_base_building_university_st_petersburg = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_st_petersburg
+    }
+}
+pmg_base_building_university_harvard = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_harvard
+    }
+}
+pmg_base_building_university_yale = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_yale
+    }
+}
+pmg_base_building_university_bologna = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_bologna
+    }
+}
+pmg_base_building_university_rome = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_rome
+    }
+}
+pmg_base_building_university_tokyo = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_tokyo
+    }
+}
+pmg_base_building_university_kyoto = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_kyoto
+    }
+}
+pmg_base_building_university_salamanca = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_salamanca
+    }
+}
+pmg_base_building_university_eotvos = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_eotvos
+    }
+}
+pmg_base_building_university_istanbul = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_istanbul
+    }
+}
+pmg_base_building_university_al_azhar = {
+    texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+    ai_selection = most_productive
+    is_hidden_when_unavailable = yes
+    production_methods = {
+        pm_default_building_university_al_azhar
+    }
+}

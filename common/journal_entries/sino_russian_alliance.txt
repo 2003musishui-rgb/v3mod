@@ -1,0 +1,107 @@
+je_sino_russian_alliance_rus = {
+    icon = "gfx/interface/icons/invention_icons/international_diplomacy.dds"
+
+    #分组id(日志里事件右上角的分类)
+    group = je_group_foreign_affairs
+
+    #决定日志条目是否出现在玩家的条目列表中（有个is_shown_in_lobby字段应该是潜在显示？）
+    #限定只有中国启动这个日志，即这个日志中root==中国
+    is_shown_when_inactive = {
+        exists = c:CHI
+        exists = c:RUS
+        c:CHI ?= THIS
+        is_subject = no
+    }
+
+    #决定该条目是否激活
+    possible = {
+        #两个国家必须存在
+        exists = c:CHI
+        exists = c:RUS
+        #关系大于40
+        c:RUS.relations:root >= 40
+        is_at_war = no
+    }
+
+    immediate = {
+        #可以设置一个进度条来表明同盟进度
+
+        #日志启用立即弹出事件
+    	trigger_event = { id = sino_russian_alliance.1 }
+        #保存RUS
+        c:RUS = {
+            save_scope_as = RUS_scope
+        }
+    }
+
+    #日志生效效果
+    modifiers_while_active = {
+		sino_russian_cooperation_modifier
+	}
+
+    
+    #失效条件
+    fail = {
+        OR = {
+            NOT = { exists = c:CHI }
+            NOT = { exists = c:RUS }
+            root = { has_war_with = c:RUS }
+        }
+	}
+    
+
+    #失败触发事件
+    on_fail = {
+    }
+
+    #是否直接显示在钉选列表里    
+    should_be_pinned_by_default_uninvolved_or_context = yes
+}
+
+je_sino_russian_alliance_chi = {
+    icon = "gfx/interface/icons/invention_icons/international_diplomacy.dds"
+
+    group = je_group_foreign_affairs
+
+    is_shown_when_inactive = {
+        exists = c:CHI
+        exists = c:RUS
+        c:RUS ?= THIS
+        is_subject = no
+    }
+
+    #俄罗斯同意申请
+    possible = {
+        custom_tooltip = {
+		    text = sino_russian_alliance_possible_2_tt
+		    has_variable = both_agree_sino_russian_alliance
+		}
+    }
+
+    immediate = {
+        
+    }
+
+    #日志生效效果
+    modifiers_while_active = {
+		sino_russian_cooperation_modifier
+	}
+
+    
+    #失效条件
+    fail = {
+        OR = {
+            NOT = { exists = c:CHI }
+            NOT = { exists = c:RUS }
+            root = { has_war_with = c:CHI }
+        }
+	}
+
+    #失败触发事件
+    on_fail = {
+    }
+
+    #是否直接显示在钉选列表里    
+    should_be_pinned_by_default_uninvolved_or_context = yes
+}
+

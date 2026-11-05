@@ -1,0 +1,485 @@
+﻿pm_default_building_potala = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            country_liberty_desire_of_subjects_add = -0.05
+        }
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+            state_assimilation_mult = 0.3
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_clergymen_add = 1000
+        }
+    }
+}
+
+pm_default_building_terracotta_army = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            unit_offense_mult = 0.1
+            interest_group_ig_armed_forces_approval_add = 3
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_soldiers_add = 1000
+        }
+    }
+}
+
+pm_default_building_mogao_caves = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            country_acceptance_shared_tradition_trait_add = 20
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_clergymen_add = 500
+        }
+    }
+}
+
+pm_default_building_crystal_palace = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            building_group_bg_manufacturing_throughput_add = 0.10
+        }
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+            state_migration_pull_mult = 0.20
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_engineers_add = 500
+        }
+    }
+}
+
+pm_default_building_reichstag = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            country_authority_mult = 0.20
+            country_legitimacy_base_add = 20
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_bureaucrats_add = 1000
+        }
+    }
+}
+
+pm_default_building_st_pauls_church = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            interest_group_ig_intelligentsia_pol_str_mult = 0.25
+            country_acceptance_shared_tradition_trait_add = 20
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_clergymen_add = 500
+        }
+    }
+}
+
+pm_default_building_buckingham_palace = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            country_liberty_desire_add = -0.05
+            country_improve_relations_speed_mult = 0.25
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_bureaucrats_add = 1000
+        }
+    }
+}
+
+pm_default_building_Ise = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            interest_group_ig_devout_pol_str_mult = 0.1
+            country_prestige_add = 25
+            country_authority_add = 50
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_bureaucrats_add = 500
+            building_employment_clergymen_add = 1000
+        }
+    }
+}
+
+pm_default_building_parliament = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    state_modifiers = {
+        workforce_scaled = {
+            building_government_administration_throughput_add = 0.25
+        }
+    }
+    country_modifiers = {
+        workforce_scaled = {
+            country_authority_add = 50
+            country_prestige_add = 50
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_bureaucrats_add = 2000
+        }
+    }
+}
+
+pm_default_building_swan = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            state_loyalists_from_political_movements_mult = 0.05
+            country_influence_add = 200
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_bureaucrats_add = 2000
+        }
+    }
+}
+
+pm_default_building_winter = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    state_modifiers = {
+        workforce_scaled = {
+            building_government_administration_throughput_add = 0.25
+        }
+    }
+    country_modifiers = {
+        workforce_scaled = {
+            country_authority_add = 50
+            country_prestige_add = 50
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_bureaucrats_add = 200
+        }
+    }
+}
+
+pm_default_building_Broadway = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    state_modifiers = {
+        workforce_scaled = {
+            state_migration_pull_mult = 0.15
+        }
+    }
+    country_modifiers = {
+        workforce_scaled = {
+            country_prestige_add = 60
+            state_loyalists_from_political_movements_mult = 0.05
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_shopkeepers_add = 1000
+            building_employment_capitalists_add = 100
+        }
+    }
+}
+
+pm_default_building_soviet = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            interest_group_ig_trade_unions_pol_str_mult = 0.08
+            country_prestige_add = 50
+            state_loyalists_from_political_movements_mult = 0.05
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_laborers_add = 2500
+        }
+    }
+}
+
+pm_default_building_Notre_Dame = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            country_authority_add = 50
+            interest_group_ig_devout_pol_str_mult = 0.05
+        }
+    }
+
+    state_modifiers = {
+        workforce_scaled = {
+            state_migration_pull_mult = 0.05
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_clergymen_add = 1000
+        }
+    }
+}
+
+pm_default_building_Hollywood = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    state_modifiers = {
+        workforce_scaled = {
+            state_migration_pull_mult = 0.15
+        }
+    }
+    country_modifiers = {
+        workforce_scaled = {
+            country_prestige_add = 50
+            country_influence_add = 200
+            state_migration_pull_mult = 0.05
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_clerks_add = 1000
+            building_employment_capitalists_add = 1000
+        }
+    }
+}
+
+pm_default_building_Versailles = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            country_prestige_add = 25
+            country_aristocrats_pol_str_mult = 0.05
+            state_aristocrats_investment_pool_efficiency_mult = 0.08
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_aristocrats_add = 100
+            building_employment_bureaucrats_add = 100
+        }
+    }
+}
+
+pm_default_building_Uffizi = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            country_prestige_mult = 0.05
+            state_migration_pull_mult = 0.05
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_aristocrats_add = 100
+            building_employment_bureaucrats_add = 100
+        }
+    }
+}
+
+pm_default_building_Venice = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            country_prestige_from_navy_power_projection_mult = 0.10
+            country_prestige_add = 20
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_soldiers_add = 950
+            building_employment_officers_add = 50
+        }
+    }
+}
+
+pm_default_building_Aswan = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            state_market_access_price_impact = 0.01
+        }
+    }
+    state_modifiers = {
+        workforce_scaled = {
+            building_group_bg_agriculture_throughput_add = 0.1
+            building_group_bg_ranching_throughput_add = 0.1
+            building_group_bg_plantations_throughput_add = 0.1
+        }
+    }
+
+    building_modifiers = {
+        workforce_scaled = {
+            goods_output_electricity_add = 200
+        }
+        level_scaled = {
+            building_employment_laborers_add = 1000
+        }
+    }
+}
+
+pm_default_building_Jerusalem = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            country_prestige_mult = 0.035
+            country_authority_mult = 0.05
+            state_radicals_from_sol_change_accepted_religion_mult = -0.03
+            state_loyalists_from_political_movements_mult = 0.03
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_clergymen_add = 1000
+        }
+    }
+}
+
+pm_default_building_Mecca = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            country_influence_mult = 0.05
+            country_authority_mult = 0.05
+            state_radicals_from_sol_change_accepted_religion_mult = -0.03
+            state_loyalists_from_political_movements_mult = 0.03
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_clergymen_add = 1000
+        }
+    }
+}
+
+pm_default_building_Madrid = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    state_modifiers = {
+        workforce_scaled = {
+            building_group_bg_service_throughput_add = 0.15
+        }
+    }
+    country_modifiers = {
+        workforce_scaled = {
+            country_authority_mult = 0.05
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_laborers_add = 1000
+            building_employment_machinists_add = 100
+        }
+    }
+}
+
+pm_default_building_stonehenge = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            country_society_tech_research_speed_mult = 0.10
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_clergymen_add = 500
+        }
+    }
+}
+
+pm_default_building_Bank_of_Manhattan = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            state_capitalists_investment_pool_efficiency_mult = 0.10
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_capitalists_add = 500
+        }
+    }
+}
+
+pm_default_building_PalaisdelaPorteDorée = {
+    texture = "gfx/interface/icons/production_method_icons/wonders.dds"
+
+    country_modifiers = {
+        workforce_scaled = {
+            country_infamy_generation_mult = -0.25
+            country_acceptance_no_shared_language_trait_add = 10
+        }
+    }
+
+    building_modifiers = {
+        level_scaled = {
+            building_employment_capitalists_add = 500
+        }
+    }
+}
